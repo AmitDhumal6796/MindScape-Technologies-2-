@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    background-color: rgb(250, 164, 164);
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    
+}
+.myntra-home{
+    height: 50px;
+}
+.logo-container{
+    margin-left: 4%;
+}
+.action-bar{
+    margin-right: 4%;
+}
+.nav-bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.nav-bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px 0;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    border-bottom: 3px solid rgb(24, 23, 24);
+}
+.nav-bar a sup{
+    color: red;
+    font-size: 10px;
+}
+.search-input{
+    background-color: white;
+    color: grey;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+
+}
+.search-bar{
+    height: 40px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.search-icon{
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    color: black;
+    background-color: white;
+    border-radius: 4px 0 0 4px;
+}
+.action-bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-container{
+    margin: 40px 0;
+}
+.banner-image{
+    width: 100%;
+    height: 400px;
+}
+.category-heading{
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category-items{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-container{
+    padding: 30px 0px 40px 0px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+.footer-column  h3{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footer-column a{
+    color: rgb(19, 20, 20);
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.copyright{
+    color: black;
+    text-align: end;
+    padding: 15px;
+}
